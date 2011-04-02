@@ -9,10 +9,14 @@ Installation
 ------------
 For now, it's the hard way:
     gem install sequel
-    wget https://www.github.com/bassnode/bundler_timer/raw/master/bundler_timer.rb > ~/bundler_timer.rb
-    echo "alias bundler ~/bundler_timer.rb" >> ~/.bashrc
 
-    # Now you can just run bundler as usual
+    curl -Ls https://github.com/bassnode/bundler_timer/raw/master/bundler_timer.rb > ~/bundler_timer.rb
+    chmod +x ~/bundler_timer.rb
+
+    # Use an alias to override bundle (or make it something different)
+    echo "alias bundle='~/bundler_timer.rb'" >> ~/.bash_profile
+
+    # Now you can just run bundle as usual
     cd ~/code/sweet_project/
     bundle install
     Using activesupport (3.0.3)
