@@ -2,4 +2,4 @@
 
 require 'bundler_timer'
 
-puts "#{'undle'.size * DB[:executions].count} key presses saved"
+puts "\t#{'undle'.size * DB[:executions].count} key presses saved"
