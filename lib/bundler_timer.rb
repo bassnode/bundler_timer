@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'rubygems'
 require 'benchmark'
 require 'sequel'
 require 'fileutils'
