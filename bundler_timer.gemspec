@@ -2,8 +2,6 @@
 
 Gem::Specification.new do |s|
   s.version            = '1.0.2'
-  s.date               = '2011-04-04'
-
   s.name               = 'bundler_timer'
   s.authors            = %w[bassnode raggi]
   s.email              = 'bassnode@gmail.com'
@@ -16,5 +14,6 @@ Gem::Specification.new do |s|
   s.executables        = %w[b]
   s.files              = `git ls-files`.split
 
-  s.add_dependency "sequel", '>= 0'
+  s.add_dependency "sequel", '~> 3'
+  s.add_dependency "bundler", '~> 1'
 end

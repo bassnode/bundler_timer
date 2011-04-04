@@ -1,0 +1,16 @@
+PATH
+  remote: .
+  specs:
+    bundler_timer (1.0.2)
+      sequel (~> 3)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    sequel (3.22.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler_timer!
