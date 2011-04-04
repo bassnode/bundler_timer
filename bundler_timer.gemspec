@@ -5,9 +5,11 @@ Gem::Specification.new do |s|
   s.date               = '2011-04-04'
 
   s.name               = 'bundler_timer'
-  s.authors            = %w[bassnode]
+  s.authors            = %w[bassnode raggi]
+  s.email              = 'bassnode@gmail.com'
   s.summary            = 'times bundler'
   s.description        = 'times bundler'
+  s.homepage           = 'http://github.com/bassnode/bundler_timer'
 
   s.default_executable = 'b'
   s.executables        = %w[b]
