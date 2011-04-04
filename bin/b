@@ -1,5 +1,3 @@
 #!/usr/bin/env ruby
 
 require 'bundler_timer'
-
-puts "\t#{'undle'.size * DB[:executions].count} key presses saved"
