@@ -1,8 +1,8 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.version            = '1.0.2'
-  s.date               = '2011-04-04'
+  s.version            = '1.0.3'
+  s.date               = '2011-04-07'
 
   s.name               = 'bundler_timer'
   s.authors            = %w[bassnode raggi]

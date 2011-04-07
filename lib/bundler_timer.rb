@@ -31,7 +31,7 @@ DB.create_table? :executions do
 end
 
 # runs bundle install by default
-command = ARGV[0] || 'install'
+command = ARGV.empty? ? 'install' : ARGV.join(' ')
 
 unless command == 'stats'
 
