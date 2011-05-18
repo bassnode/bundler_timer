@@ -1,7 +1,7 @@
 Bundler Timer
 =============
 Ever find yourself staring at your terminal wondering, "Sweet baby jesus, how many hours of my life do I spend waiting for Bundler?!".
-Well know you can know just how much of your time has been given to our friend, Bundler.
+Well now you can know just how much of your time has been given to our friend, Bundler.
 
 Bundler Timer will log those precious seconds and report back a depressing little report each time you run Bundler.
 
