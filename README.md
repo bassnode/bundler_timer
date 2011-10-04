@@ -9,12 +9,10 @@ Installation
 ------------
     gem install bundler_timer
 
-    # By default, bundler_timer provides a binary named 'b' which you can use
-    # just like bundler.  If you'd rather replace the bundler command, do
-    # something like:
-    echo "alias bundle='b'" >> ~/.bash_profile
+    # By default, bundler_timer provides a binary named 'b' which you can
+    # use as a bundle alias.
 
-    # Now you can just run it as usual and keep track of your shortening life!
+    # So you can just run it as usual and keep track of your shortening life!
     cd ~/code/sweet_project/
     b install
     Using activesupport (3.0.3)
@@ -22,9 +20,6 @@ Installation
     ...[snip]...
 
         Congratulations, you've spent 12 minutes today staring at your screen (5.6 hours overall)
-
-    # To just see the damage:
-    b stats
 
 
 To Do
