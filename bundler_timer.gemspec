@@ -20,4 +20,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency "sequel", '~> 3'
   s.add_dependency "bundler", '~> 1'
+  s.add_dependency "sqlite3", '~> 1.3'
 end
