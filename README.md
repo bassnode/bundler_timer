@@ -7,6 +7,9 @@ Bundler Timer will log those precious seconds and report back a depressing littl
 
 Installation
 ------------
+    # If using RVM gemsets:
+    # rvm gemset use global
+
     gem install bundler_timer
 
     # By default, bundler_timer provides a binary named 'b' which you can
