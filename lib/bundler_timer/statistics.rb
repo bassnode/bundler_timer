@@ -52,6 +52,8 @@ module BundlerTimer
     end
 
     def smart_time(seconds)
+      return '0 seconds' unless seconds
+
       if (minutes = seconds/60.0) >= 1
         if (hours = minutes/60.0) >= 1
           ('%3.1f' % hours) + ' hours'

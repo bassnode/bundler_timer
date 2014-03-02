@@ -8,11 +8,9 @@ module BundlerTimer
       super
     end
 
-    no_tasks do
-      def invoke_task(task, *args)
-        @statistics.record(task.name) do
-          super
-        end
+    def install
+      @statistics.record('install') do
+        super
       end
     end
   end
